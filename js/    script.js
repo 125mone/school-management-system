@@ -1,6 +1,6 @@
-console.log("JS Connected");
+console.log("JS WORKING");
 
-document.addEventListener("DOMContentLoaded", function () {
+window.onload = function () {
 
     document.getElementById("ministry").onclick = function () {
         alert("دخول الوزارة قريباً");
@@ -22,4 +22,4 @@ document.addEventListener("DOMContentLoaded", function () {
         alert("الأوائل قريباً");
     };
 
-});
+};
