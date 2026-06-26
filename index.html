@@ -23,7 +23,31 @@
 
     </div>
 
-    <script src="js/script.js"></script>
+    <script>
+document.addEventListener("click", function(e) {
+
+    if (e.target.id === "ministry") {
+        alert("دخول الوزارة قريباً");
+    }
+
+    if (e.target.id === "school") {
+        alert("دخول المدرسة قريباً");
+    }
+
+    if (e.target.id === "student") {
+        alert("دخول الطالب قريباً");
+    }
+
+    if (e.target.id === "result") {
+        alert("النتائج قريباً");
+    }
+
+    if (e.target.id === "top") {
+        alert("الأوائل قريباً");
+    }
+
+});
+</script>
 
 </body>
 
