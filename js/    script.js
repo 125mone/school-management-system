@@ -1,21 +1,21 @@
 console.log("School System Loaded");
 
-document.querySelectorAll("button")[0].onclick = function () {
+document.getElementById("ministry").onclick = function () {
     alert("دخول الوزارة قريباً");
 };
 
-document.querySelectorAll("button")[1].onclick = function () {
+document.getElementById("school").onclick = function () {
     alert("دخول المدرسة قريباً");
 };
 
-document.querySelectorAll("button")[2].onclick = function () {
+document.getElementById("student").onclick = function () {
     alert("دخول الطالب قريباً");
 };
 
-document.querySelectorAll("button")[3].onclick = function () {
+document.getElementById("result").onclick = function () {
     alert("النتائج قريباً");
 };
 
-document.querySelectorAll("button")[4].onclick = function () {
+document.getElementById("top").onclick = function () {
     alert("الأوائل قريباً");
 };
