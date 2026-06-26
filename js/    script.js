@@ -1,21 +1,25 @@
-console.log("School System Loaded");
+console.log("JS Connected");
 
-document.getElementById("ministry").onclick = function () {
-    alert("دخول الوزارة قريباً");
-};
+document.addEventListener("DOMContentLoaded", function () {
 
-document.getElementById("school").onclick = function () {
-    alert("دخول المدرسة قريباً");
-};
+    document.getElementById("ministry").onclick = function () {
+        alert("دخول الوزارة قريباً");
+    };
 
-document.getElementById("student").onclick = function () {
-    alert("دخول الطالب قريباً");
-};
+    document.getElementById("school").onclick = function () {
+        alert("دخول المدرسة قريباً");
+    };
 
-document.getElementById("result").onclick = function () {
-    alert("النتائج قريباً");
-};
+    document.getElementById("student").onclick = function () {
+        alert("دخول الطالب قريباً");
+    };
 
-document.getElementById("top").onclick = function () {
-    alert("الأوائل قريباً");
-};
+    document.getElementById("result").onclick = function () {
+        alert("النتائج قريباً");
+    };
+
+    document.getElementById("top").onclick = function () {
+        alert("الأوائل قريباً");
+    };
+
+});
